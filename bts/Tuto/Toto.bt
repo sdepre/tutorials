@@ -8,7 +8,28 @@
       "label": ""
     },
     "properties": {},
-    "children": [],
+    "children": [
+      {
+        "activated": true,
+        "metadata": {
+          "label": "coucou"
+        },
+        "properties": {
+          "name": "Say",
+          "inputParams": [
+            {
+              "key": "message",
+              "type": "string",
+              "value": "Coucou samuel"
+            }
+          ],
+          "outputParams": []
+        },
+        "children": [],
+        "id": "503dc739-6d63-4289-9fae-228e86edee58",
+        "type": "action"
+      }
+    ],
     "id": "8c1897ef-e158-40a5-93b6-2f17c7b067f5"
   }
 ]

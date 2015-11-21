@@ -1,6 +1,6 @@
 [
   {
-    "version": "1.1.0"
+    "version": "1.2.0"
   },
   {
     "activated": true,
@@ -14,20 +14,51 @@
         "metadata": {
           "label": ""
         },
-        "properties": {
-          "name": "Say",
-          "inputParams": [
-            {
-              "key": "message",
-              "type": "string",
-              "value": "Hello World!"
-            }
-          ],
-          "outputParams": []
-        },
-        "children": [],
-        "id": "60b920be-5d01-4570-8e9f-57780f1f5f18",
-        "type": "action"
+        "properties": {},
+        "children": [
+          {
+            "activated": true,
+            "metadata": {
+              "label": "hi"
+            },
+            "properties": {
+              "name": "Sat",
+              "inputParams": [
+                {
+                  "key": "message",
+                  "type": "string",
+                  "value": "Hi guy"
+                }
+              ],
+              "outputParams": []
+            },
+            "children": [],
+            "id": "faa16b20-f60b-4ffa-9b30-c887d94fc84b",
+            "type": "action"
+          },
+          {
+            "activated": true,
+            "metadata": {
+              "label": "Coucou"
+            },
+            "properties": {
+              "name": "Say",
+              "inputParams": [
+                {
+                  "key": "message",
+                  "type": "string",
+                  "value": "Hello World!"
+                }
+              ],
+              "outputParams": []
+            },
+            "children": [],
+            "id": "60b920be-5d01-4570-8e9f-57780f1f5f18",
+            "type": "action"
+          }
+        ],
+        "id": "12463474-122d-4225-8deb-023602938a7b",
+        "type": "sequence"
       }
     ],
     "id": "000d8752-ca24-4b37-be38-01d7b53cf39a"
